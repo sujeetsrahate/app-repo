@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: sujeetsr07/app:latest
+        image: sujeetsr07/app:latest   # Jenkins will replace this
         ports:
         - containerPort: 5000
